@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+  padding: 100px 0;
+  max-width: var(--max-width-app);
+  margin: 0 auto;
+  gap: 28px;
+}
+
+@media screen and (max-width: 1280px) {
+  .main {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .main {
+    padding: 25px 0;
+  }
+}

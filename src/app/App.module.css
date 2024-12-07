@@ -1,0 +1,12 @@
+.main {
+  position: relative;
+  font-family: var(--ff-primary);
+  font-style: normal;
+  color: var(--fg-primary);
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: var(--height-header) auto min-content;
+  grid-template-columns: 100%;
+  justify-content: center;
+  background-color: var(--bg-primary);
+}

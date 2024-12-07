@@ -1,0 +1,89 @@
+.main {
+  margin: 0;
+  position: fixed;
+  top: 107.5px;
+  right: calc((100% - var(--max-width-app)) / 2);
+  width: fit-content;
+  transition: all 0.4s ease;
+  padding: 0;
+  gap: 17px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.notification {
+  border-radius: 7px;
+  transition: all 0.4s ease;
+  background-color: var(--bg-lending);
+  padding: 15px;
+  gap: 15px;
+  border: 1px solid var(--border-color);
+  display: grid;
+  grid-template-columns: 45px auto;
+  align-items: center;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-image: var(--current-icon);
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.name {
+  margin: 0;
+}
+
+.button_type_close {
+  background: none;
+  width: 15px;
+  height: 15px;
+  background-image: url(./../../assets/images/icons/cross.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.text {
+  width: 100%;
+  color: var(--fg-secondary);
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .main {
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 544px) and (max-width: 1024px) {
+  .main {
+    right: 50px;
+    max-width: calc(100% - 100px);
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .main {
+    right: 25px;
+    width: calc(100% - 50px);
+  }
+  .notification {
+    grid-template-columns: 35px auto;
+  }
+}

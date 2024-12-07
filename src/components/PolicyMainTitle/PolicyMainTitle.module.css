@@ -1,0 +1,7 @@
+.title {
+  width: 100%;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 0 0 13px 0;
+  border-bottom: 1px solid var(--border-color);
+}
