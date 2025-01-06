@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://chyVacheck.github.io/crypto",
+  "homepage": ".",
   "dependencies": {
     "@sumsub/websdk": "^2.0.1",
     "@sumsub/websdk-react": "^2.0.1",
