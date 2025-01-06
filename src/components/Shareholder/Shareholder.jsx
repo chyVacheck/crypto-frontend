@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 // ! modules
 import { useState, useEffect, useRef } from 'react';
 
@@ -553,7 +554,7 @@ function Shareholder({
               name={'City'}
               nameForChangeFunction={'city'}
               id={`city_${index}`}
-              placeholder='Barselona'
+              placeholder='Barcelona'
               customRef={cityRef}
               onChange={handleFieldChange}
               isValid={validatedFields.city.valid}

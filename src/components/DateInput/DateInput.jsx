@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 // DateInput
 // ! modules
 import { useEffect, useRef, useState } from 'react';
